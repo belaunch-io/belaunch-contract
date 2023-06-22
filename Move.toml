@@ -1,10 +1,12 @@
 [package]
 name = "blat"
 version = "0.0.1"
-published-at = "0x0"
+published-at = "0x1735f771ce2c775de46abb6c4c5d91b1ec40fa7290b9f53be2f0151f5842ce30"
+
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
 
 [addresses]
-blat =  "0x0"
+blat =  "0x1735f771ce2c775de46abb6c4c5d91b1ec40fa7290b9f53be2f0151f5842ce30"
+adblat="0x1c30b57db84d10c7d608c6adeadff8b82b1efbdae12c8406ff20ae6f0588002a"
 sui = "0000000000000000000000000000000000000000000000000000000000000002"
