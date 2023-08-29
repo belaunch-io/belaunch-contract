@@ -4,20 +4,17 @@
 module blat::BLAT {
     use std::ascii::string;
     use std::option;
-    use sui::balance::{Self};
-    use sui::coin::{Self, TreasuryCap, Coin};
+    use sui::coin::{Self};
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};
     use sui::url;
-    use sui::pay;
-    use std::vector;
 
     const SYMBOL: vector<u8> = b"BLAT";
     const NAME: vector<u8> = b"BeLaunch Token";
     const TOTAL_SUPPLY: u64 = 100_000_000_000_000_000; // 100_000_000 * 10^9
     const DESCRIPTION: vector<u8> = b"The launchpad platform is safe and secure for everyone!";
     const DECIMAL: u8 = 9;
-    const ICON_URL: vector<u8> = b"https://belaunch.s3.ap-southeast-1.amazonaws.com/media/images/belaunch.png";
+    const ICON_URL: vector<u8> = b"https://belaunchio.infura-ipfs.io/ipfs/Qme9yNdWnEVgJA4wMK3HeEm6UdvVpJa1gv2y5jLBJK8Jbe";
 
     struct BLAT has drop {}
 
